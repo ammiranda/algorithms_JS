@@ -20,10 +20,10 @@ function mergeSort(array) {
 			break;
 		}
 		if (leftSorted[0] < rightSorted[0]) {
-			var num = leftSorted.shift();  // Remove first number from array and pass it into var num
+			var num = leftSorted.shift();  // Removes first number from leftsorted array and passes it into var num
 		}
 		else {
-			var num = rightSorted.shift();
+			var num = rightSorted.shift();  // Removes first number from rightsorted array and passes it into var num
 		}
 		sorted.push(num);  // Append num to end of sorted array
 	}
